@@ -44,5 +44,5 @@ Released under the [MIT License] by [Michael van Rooijen].
 [DNSimple]: https://dnsimple.com/
 [Docker]: https://www.docker.com/
 [dpiddy/letsencrypt-dnsimple]: https://github.com/dpiddy/letsencrypt-dnsimple
-[MIT License]: https://github.com/meskyanichi/dockerized-letsencrypt-dnsimple/blob/master/LICENSE
-[Michael van Rooijen]: https://twitter.com/meskyanichi
+[MIT License]: https://github.com/mrrooijen/dockerized-letsencrypt-dnsimple/blob/master/LICENSE
+[Michael van Rooijen]: https://twitter.com/mrrooijen
