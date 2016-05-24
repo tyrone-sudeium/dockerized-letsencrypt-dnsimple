@@ -22,7 +22,7 @@ $ docker run --rm \
   -e NAMES=example.com,www/example.com \
   -e ACME_CONTACT=mailto:me@example.com \
   -v $(pwd)/live:/cwd/live \
-  -ti meskyanichi/letsencrypt-dnsimple
+  -ti mrrooijen/letsencrypt-dnsimple
 ```
 
 *Use `/` instead of `.` to denote the separation between subdomain and [DNSimple] domain.*
