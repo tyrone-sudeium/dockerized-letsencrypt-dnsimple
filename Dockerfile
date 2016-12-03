@@ -6,7 +6,7 @@ RUN apk add --no-cache alpine-sdk linux-headers \
   && CFLAGS="-static" ./configure --without-openssl --disable-symtable \
   && make \
   && cp ./bin/dig/dig /usr/bin/ \
-  && git clone https://github.com/dpiddy/letsencrypt-dnsimple.git /cwd \
+  && git clone https://github.com/tyrone-sudeium/letsencrypt-dnsimple /cwd \
   && cd /cwd \
   && bundle install \
   && rm -rf /bind-9.10.2 /cwd/.git \
